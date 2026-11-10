@@ -1,0 +1,12 @@
+{
+    "name": "hanshs474/freeimagetovideo",
+    "description": "Free image to video AI with no daily cap: start with no sign-up, keep going on a free account. Every video comes with sound and no watermark. This is the official PHP SDK for Free Image to Video.",
+    "type": "library",
+    "keywords": ["image-to-video", "text-to-video", "video-generation", "ai-video", "minimax", "freeimagetovideo"],
+    "homepage": "https://freeimagetovideo.ai/?utm_source=packagist&utm_medium=package",
+    "license": "MIT",
+    "authors": [{"name": "Free Image to Video", "email": "support@freeimagetovideo.ai", "homepage": "https://freeimagetovideo.ai/?utm_source=packagist&utm_medium=package"}],
+    "support": {"issues": "https://github.com/hanshs474/fitv-php/issues", "source": "https://github.com/hanshs474/fitv-php", "docs": "https://freeimagetovideo.ai/video/image-to-video-ai-with-sound"},
+    "require": {"php": ">=8.1", "ext-curl": "*", "ext-json": "*"},
+    "autoload": {"psr-4": {"FreeImageToVideo\\": "src/"}}
+}
